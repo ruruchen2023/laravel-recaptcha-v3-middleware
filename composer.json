@@ -1,0 +1,30 @@
+{
+    "name": "ruruchen2023/laravel-recaptcha-middleware",
+    "description": "Laravel reCAPTCHA v3 SDK",
+    "keywords": ["laravel", "google-reCAPTCHA"],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ruruchen2023\\Recaptcha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ruru_chen",
+            "email": "ruru_chen@owlting.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "^7.0|^8.0",
+        "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
+        "nesbot/carbon": "^1.26.3 || ^2.0"
+    }, 
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ruruchen2023\\Recaptcha\\RecaptchaServiceProvider"
+            ]
+        }
+    }
+}
